@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings_user">
+        <EditTextPreference android:title="@string/settings_user_name" android:key="Benutzername" android:summary="@string/settings_user_name_empty_sum"/>
+        <EditTextPreference android:title="@string/settings_user_password" android:key="Passwort" android:password="true"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_sonstiges">
+        <CheckBoxPreference android:id="@+id/settingsAdultMode" android:key="settings_adult_mode" android:title="@string/settings_adult_mode" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

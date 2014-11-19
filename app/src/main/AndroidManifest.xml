@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mharrer.kickapp" >
+
+    <!-- permissions -->
+    <uses-feature android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.mharrer.kickapp.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.mharrer.kickapp.activity.CoachDetailsActivity" android:label="@string/title_activity_coach_detail" >
+        </activity>
+
+        <activity android:name="com.example.mharrer.kickapp.activity.TrainingDetailsActivity" android:label="@string/title_activity_training_detail"/>
+
+        <activity android:name="com.example.mharrer.kickapp.activity.ParticipantDetailsActivity" android:label="@string/title_activity_participant_detail"/>
+
+        <activity android:name="com.example.mharrer.kickapp.activity.TeamDetailsActivity" android:label="@string/title_activity_team_detail"/>
+
+        <activity android:name="com.example.mharrer.kickapp.settings.SettingsActivity" android:label="SettingsActivity" />
+    </application>
+
+</manifest>

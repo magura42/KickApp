@@ -1,0 +1,144 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.mharrer.kickapp.fragments.CoachDetailsFragment"
+        android:orientation="vertical"
+        android:id="@+id/coachDetailsLayout">
+
+
+        <!-- use contacts -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:paddingRight="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/coachDetailUseConctacts"
+                android:background="@drawable/ic_action_group" />
+        </LinearLayout>
+
+        <!-- Firstname -->
+        <TextView
+            android:id="@+id/coachDetailsFirstname"
+            android:text="@string/coach_details_firstname"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" />
+
+        <EditText
+            android:id="@+id/editCoachDetailsFirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Lastname -->
+        <TextView
+            android:id="@+id/coachDetailsLastname"
+            android:text="@string/coach_details_lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/editCoachDetailsLastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- Phonenumber -->
+        <TextView
+            android:id="@+id/coachDetailsPhonenumber"
+            android:text="@string/coach_details_phonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editCoachDetailsPhonenumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/coachDetailsCallButton"
+                android:background="@drawable/ic_action_call"
+                android:contentDescription="test"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+
+
+        <!-- email -->
+        <TextView
+            android:id="@+id/coachDetailsEmail"
+            android:text="@string/coach_details_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_width="match_parent">
+
+            <EditText
+                android:id="@+id/editCoachDetailsEmail"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/coachDetailsEmailButton"
+                android:background="@drawable/ic_action_new_email"
+                android:layout_marginRight="10dp" />
+        </LinearLayout>
+
+        <!-- Photo -->
+        <TextView
+            android:id="@+id/coachDetailsImage"
+            android:text="@string/coach_details_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/editCoachDetailsPhoto"
+            android:onClick="dispatchTakePictureIntent"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitCenter" />
+
+
+        <!-- save button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="20dp"
+            android:gravity="right"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/saveCoachDetailsButton"
+                android:background="@drawable/ic_action_accept" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TimeDateField">
+        <item name="android:textSize">15dp</item>
+        <item name="android:paddingLeft">12dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KickApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="main_title">Hauptmenü</string>
+    <string name="main_text">Hauptmenü...</string>
+    <string name="coaches_title">Trainer</string>
+    <string name="participant_title">Teilnehmer</string>
+    <string name="training_title">Training</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_coach_detail">Trainer</string>
+    <string name="title_activity_training_detail">Training</string>
+    <string name="title_activity_participant_detail">Teilnehmer</string>
+    <string name="coach_details_title">Detailansicht Trainer</string>
+    <string name="coach_details_firstname">Vorname:</string>
+    <string name="coach_details_lastname">Nachname:</string>
+    <string name="title_activity_training">Training</string>
+
+    <string name="training_details_name">Name:</string>
+    <string name="training_details_date">Datum:</string>
+    <string name="pick_date">Datum</string>
+    <string name="artist">Artist</string>
+    <string name="coach_details_image">Bild:</string>
+    <string name="user_details_phonenumber">Telefonnummer:</string>
+    <string name="menu_adult_mode">test</string>
+    <string name="settings_adult_mode">adult mode</string>
+    <string name="settings_user">Benutzer</string>
+    <string name="settings_user_name">Benutzername</string>
+    <string name="settings_user_password">Passwort</string>
+    <string name="settings_sonstiges">Sonstiges</string>
+    <string name="settings_user_name_empty_sum">Benutzername bitte eingeben</string>
+    <string name="settings_user_name_sum">Benutzername ist </string>
+    <string name="settings_password_empty_sum">Bitte Passwort eingeben</string>
+    <string name="settings_password_sum">Passwort bereits eingeben</string>
+    <string name="coachDetailsSaveButton">Speichern</string>
+    <string name="coachDetailsDeleteButton">Löschen</string>
+    <string name="participantDetailsSaveButton">Speichern</string>
+    <string name="participantDetailsDeleteButton">Löschen</string>
+    <string name="trainingDetailsDeleteButton">Löschen</string>
+    <string name="trainingDetailsSaveButton">Speichern</string>
+    <string name="action_add_coach">Neuer Trainer</string>
+    <string name="action_add_participant">Neuer Teilnehmer</string>
+    <string name="action_add_training">Neues Training</string>
+    <string name="team_details_name">Teamname:</string>
+    <string name="training_details_teammembers">Teammitglieder:</string>
+    <string name="action_add_team">Neues Team</string>
+    <string name="title_activity_team_detail">Team</string>
+    <string name="team_title">Team</string>
+    <string name="dialog_add_teammember">Füge Teammitglied hinzu</string>
+    <string name="training_details_location">Ort:</string>
+    <string name="training_details_endtime">Ende:</string>
+    <string name="training_details_starttime">Start:</string>
+    <string name="training_details_coach">Trainer:</string>
+    <string name="training_details_team">Team:</string>
+    <string name="coach_details_phonenumber">Telfonnummer:</string>
+    <string name="team_details_coach">Trainer:</string>
+    <string name="dialog_add_contact">Kontaktdaten verwenden</string>
+    <string name="coach_details_email">E-Mail:</string>
+</resources>

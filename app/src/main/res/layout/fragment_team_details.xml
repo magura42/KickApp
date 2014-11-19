@@ -1,0 +1,85 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.mharrer.kickapp.fragments.TeamDetailsFragment"
+        android:orientation="vertical">
+
+        <!-- name -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/team_details_name"
+            android:id="@+id/teamDetailsName" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:id="@+id/editTeamDetailsName" />
+
+        <!-- Trainer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/team_details_coach"
+            android:id="@+id/teamDetailsCoach" />
+
+        <Spinner
+            android:id="@+id/spinner_teamDetails_coach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/training_details_teammembers"
+                android:id="@+id/teamDetailsTeammembers" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:id="@+id/teamDetailAddTeammember"
+                android:background="@drawable/ic_action_new_dark" />
+
+        </LinearLayout>
+
+
+        <ListView
+            android:id="@+id/teamDetailsTeammembersList"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:gravity="right"
+            android:orientation="horizontal"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/saveTeamDetailsButton"
+                android:background="@drawable/ic_action_accept" />
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

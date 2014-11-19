@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.example.mharrer.kickapp.fragments.TrainingDetailsFragment"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/training_details_name"
+        android:id="@+id/trainingDetailsName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/editTrainingDetailsName" />
+
+    <!-- Datum -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/training_details_date"
+        android:id="@+id/trainingDetailsDate" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTrainingDetailsDate"
+        style="@style/TimeDateField" />
+
+
+    <!-- Trainer -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/training_details_coach"
+        android:id="@+id/trainingDetailsCoach" />
+
+    <Spinner
+        android:id="@+id/spinner_trainingDetails_coach"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <!-- Startzeit -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/training_details_starttime"
+        android:id="@+id/trainingDetailsStarttime" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTrainingDetailsStarttime"
+        style="@style/TimeDateField" />
+
+    <!-- Endzeit -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/training_details_endtime"
+        android:id="@+id/trainingDetailsEndtime" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/editTrainingDetailsEndtime"
+        style="@style/TimeDateField" />
+
+    <!-- Team -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/training_details_team"
+        android:id="@+id/trainingDetailsTeam" />
+
+    <Spinner
+        android:id="@+id/spinner_trainingDetails_team"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Location -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/training_details_location"
+        android:id="@+id/trainingDetailsLocation" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTrainingDetailsLocation" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/saveTrainingDetailsButton"
+            android:background="@drawable/ic_action_accept" />
+
+    </LinearLayout>
+</LinearLayout>
