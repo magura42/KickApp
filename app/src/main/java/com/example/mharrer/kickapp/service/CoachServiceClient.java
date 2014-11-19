@@ -29,7 +29,7 @@ public class CoachServiceClient {
     private CoachServiceClient() {
         Coach c1  = new Coach("Franz", "Beckenbauer", new Long(1));
         Coach c2  = new Coach("Rudi", "Völler", new Long(2));
-        Coach c3  = new Coach("Berti", "Vogts", new Long(3));
+        Coach c3  = new Coach("Hubert", "Vogts", new Long(3));
         coaches.add(c1);
         coaches.add(c2);
         coaches.add(c3);
